@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+    background: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: centerc;
+    flex-direction: column;
+    gap:20%;
+}
+
+
+header .logo
+{
+    font-size: 1.3em;
+    letter-spacing: .3em;
+    margin: 20px;
+    text-shadow:1px 1px 1px ;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn-primary
+{
+    background: #fff;
+    color: lightblue;
+    outline: none;
+    border: none;
+}
+
+.logo:hover{
+    letter-spacing: .5em;
+}
+
+footer
+{
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: lightblue;
+    letter-spacing: .6em;
+
+}
+
+.titlec
+{
+  letter-spacing: 3px;  
+  color: #fff;
+}
+
+a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+border-radius: 20px;
+margin: 20px;
+text-decoration: none;
+}
+
+button{
+    border-radius: 10px;
+    background: none;
+    padding: 10px;
+}
+
